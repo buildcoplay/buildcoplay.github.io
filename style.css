@@ -8,6 +8,7 @@ body {
     position:relative;
     overflow-x: hidden;
     z-index: 2;
+    font-weight: 400;
     /* color: #414548; */
 }
 
