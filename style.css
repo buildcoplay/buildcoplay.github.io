@@ -1,9 +1,13 @@
+
+html,
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     /* font-family: Helvetica,Arial,sans-serif; */
-    overflow-x: hidden;
     background-color: white;
+    position:relative;
+    overflow-x: hidden;
+    z-index: 2;
     /* color: #414548; */
 }
 
@@ -38,7 +42,8 @@ p {
 }
 
 .secondaryBg {
-    background-color: #F2F4F7;
+    /* background-color: #F2F4F7; */
+    background-color: aliceblue;
 }
 
 .centerText {
@@ -50,7 +55,7 @@ p {
     position: fixed;
     width: 100vw;
     height: 52px;
-    z-index: 1;
+    z-index: 5;
 }
 
 ul.topnav {
@@ -75,10 +80,10 @@ ul.topnav li a:hover:not(.active) {background-color: #5aaed6;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-}
+} */
 
 #mainContainer {
     width: 100vw;
@@ -104,21 +109,6 @@ ul.topnav li.right {float: right;}
     overflow: hidden;
 }
 
-@media screen and (max-width: 1000px) {
-    #bgCircle {
-        right: -23vw;
-    }
-}
-
-
-@media screen and (max-width: 900px) {
-    #bgCircle {
-        right: -30vw;
-        top: -40vw;
-    }
-}
-
-
 .heroContainer { 
     display: flex;
     flex-wrap: wrap;
@@ -131,19 +121,62 @@ ul.topnav li.right {float: right;}
 
 .heroText {
     width: 50%;
+    flex-grow: 1;
+    border-radius: 10px;
     text-align: center;
+    background-color: rgba(240, 248, 255, 0.603);
+    padding: 25px;
+    z-index: 4;
 }
 
 .heroTextBody {
     font-size: 1.5em;
 }
 
-.heroImage {
+.heroImageContainer {
+    position: relative;
     display: flex;
+    flex-grow: 1;
     width: 30%;
     justify-content: center;
     align-items: center;
 }
+
+.heroImg {
+    /* height: 600px; */
+}
+
+@media screen and (max-width: 820px) {
+    .heroContainer {
+        height: 85vh;;
+    }
+    .heroImageContainer {
+        position: absolute;
+    }
+
+.heroText {
+    width: 100%;
+    flex-grow: 1;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.603);
+    padding: 10px;
+    z-index: 4;
+}
+
+.heroText > h1 {
+    font-size: 2.5em;
+}
+
+.heroText > p {
+    font-size: 1.25em;
+}
+
+.standardButton {
+    font-size: 1em;
+}
+  }
+  
 
 .sectionSeperator {
     width: 80%;
@@ -156,9 +189,10 @@ ul.topnav li.right {float: right;}
 
 .sectionContainer {
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 80%;
 }
@@ -173,28 +207,41 @@ ul.topnav li.right {float: right;}
 
 #aboutItem {
     margin: 20px;
-    width: 300px;
-    height: 250px;
+    width: 315px;
+    min-height: 275px;
     flex-grow: 3;
     align-items: center;
     border-radius: 10px;
     text-align: center;
 }
 
+.aboutItemBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #aboutFriendZone {
-    width: 50%;
+    width: 460px;
+    flex-grow: 1;
 }
 
 #friendZoneImg {
-    width: 40%;
+    max-width: 550px;
+    flex-grow: 1;
+    margin: 25px
 }
 
 #aboutCoPlayVR {
-    width: 50%;
+    width: 460px;
+    flex-grow: 1;
 }
 
 #coplayVrImg {
-    width: 45%;
+    max-width: 100%;
+    width: 600px;
+    flex-grow: 1;
+    margin: 25px;
 }
 
 #mission {
