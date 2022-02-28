@@ -53,7 +53,7 @@ p {
 
 #topnavContainer {
     position: fixed;
-    width: 100vw;
+    width: 99vw;
     height: 52px;
     z-index: 5;
 }
@@ -90,12 +90,13 @@ ul.topnav li.right {float: right;}
 }
 
 .standardButton {
-    width: 35%;
+    padding: 5px 20px 5px 20px;
     height: 50px;
     border-radius: 5px;
     border-style: none;
     font-size: 1.5em;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #bgCircle {
