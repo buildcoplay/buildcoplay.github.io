@@ -1,0 +1,16 @@
+.Mission-container {
+    color: white;
+    background: #282929;
+    padding: 25px 10vw 25px 10vw;
+    padding: 25px 7vw 25px 7vw
+}
+
+.Mission-container > h1 {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .Mission-container {
+      padding: 15px 15px 15px 15px
+    }
+  }

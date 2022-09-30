@@ -1,0 +1,54 @@
+.Story-container {
+    width: 100%;  
+    height: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.Story-container > h1 {
+    margin: 0;
+}
+
+.Story-content-container {
+    display: flex;
+    width: 100%;  
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 50px; */
+}
+
+.Story-image {
+    max-height: 45vh;
+    width: auto;
+    max-width: 90vw;
+    padding: 10px;
+    align-self: center;
+}
+
+.Story-body {
+    flex: 1 1 50vw;
+    padding: 10px;
+}
+
+.Story-body > ul {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.Story-body > h2 {
+    color: #9328FF;
+}
+
+@media (max-width: 700px) {
+    .Story-container {
+        padding: 5px 5px 5px 5px
+    }
+
+    .Story-image {
+        max-height: 45vh;
+        /* width: 400px; */
+        max-width: 300px;
+        padding: 10px;
+        align-self: center;
+    }
+  }

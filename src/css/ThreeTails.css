@@ -1,0 +1,40 @@
+.ThreeTails-container {
+    background: #282929;
+    width: 100%;  
+    height: 100%;
+    padding: 25px 7vw 25px 7vw
+}
+
+.ThreeTails-container > h1 {
+    font-size: calc(10px + 3vmin);
+}
+
+.ThreeTails-card-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    color: white;
+}
+
+.ThreeTails-card {
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    padding: 15px;
+} 
+
+.ThreeTails-card > h2 {
+    color: #9328FF;
+    font-size: calc(10px + 1.25vmin);
+}
+
+.ThreeTails-card-image {
+    /* fill: #28ffff; */
+    width: auto;
+    height: 100px;
+    background: #282929;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

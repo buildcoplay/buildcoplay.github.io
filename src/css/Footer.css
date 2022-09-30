@@ -1,0 +1,19 @@
+.Footer-container {
+    background: #282929;
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    padding: 0px 50px 15px 50px;
+    color: white;
+}
+
+.Footer-divider {
+    width: 100%;
+    color: #9328FF;
+    margin-bottom: 75px;
+}
+
+.Footer-child {
+    text-align: left;
+}
