@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/buildcoplay.github.io/static/css/main.7d1bd194.css",
+    "main.js": "/buildcoplay.github.io/static/js/main.43cfc6d8.js",
+    "static/js/787.8551d0fe.chunk.js": "/buildcoplay.github.io/static/js/787.8551d0fe.chunk.js",
+    "static/media/CoPlayVR.png": "/buildcoplay.github.io/static/media/CoPlayVR.d33ab04a27a58ed63644.png",
+    "static/media/friendzone3x.png": "/buildcoplay.github.io/static/media/friendzone3x.fc1a5a7d9939708b5a68.png",
+    "static/media/primeicons.svg": "/buildcoplay.github.io/static/media/primeicons.c6e2053303524e39530c.svg",
+    "static/media/LionLowPoly4.png": "/buildcoplay.github.io/static/media/LionLowPoly4.14611fd645175746f46c.png",
+    "static/media/primeicons.eot": "/buildcoplay.github.io/static/media/primeicons.7fc4d8e224d1ff1b9c62.eot",
+    "static/media/primeicons.woff": "/buildcoplay.github.io/static/media/primeicons.449aa8c65cdc5c2a8686.woff",
+    "static/media/primeicons.ttf": "/buildcoplay.github.io/static/media/primeicons.91bacab1f083f2795272.ttf",
+    "static/media/video_game_heart.svg": "/buildcoplay.github.io/static/media/video_game_heart.558f468436f47d77cae7405fc20e213b.svg",
+    "static/media/help_kids.svg": "/buildcoplay.github.io/static/media/help_kids.75bd443288acc12e511849605cfa528f.svg",
+    "index.html": "/buildcoplay.github.io/index.html",
+    "static/media/tools.svg": "/buildcoplay.github.io/static/media/tools.ee1188ab48d8cf8ca0a13bbda90196d2.svg",
+    "main.7d1bd194.css.map": "/buildcoplay.github.io/static/css/main.7d1bd194.css.map",
+    "main.43cfc6d8.js.map": "/buildcoplay.github.io/static/js/main.43cfc6d8.js.map",
+    "787.8551d0fe.chunk.js.map": "/buildcoplay.github.io/static/js/787.8551d0fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d1bd194.css",
+    "static/js/main.43cfc6d8.js"
+  ]
+}
