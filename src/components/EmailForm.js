@@ -5,7 +5,6 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 const url = "https://coplay.us14.list-manage.com/subscribe/post?u=30105f007ac96e2ed907882b4&amp;id=f5cbf81e5a&amp;f_id=00f186e0f0";
 
 const CustomForm = ({ status, message, onValidated }) => {
-    console.log(status, message);
     let email, name, note;
     const submit = () =>
         email &&

@@ -1,7 +1,7 @@
 {
   "name": "coplay-landing-page",
   "version": "0.1.0",
-  "homepage": "https://buildcoplay.github.io/buildcoplay.github.io",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
